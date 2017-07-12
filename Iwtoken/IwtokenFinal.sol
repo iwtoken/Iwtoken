@@ -187,8 +187,8 @@ contract IntegrativeWalletToken is ERC20Token {
     uint256 public constant STARTDATE = 1498741200;
     uint256 public constant ENDDATE = STARTDATE + 28 days;
 
-    // Cap USD 12.5 mil @ 260.1470 ETH/USD
-    uint256 public constant CAP = 50000 ether;
+    // Cap USD 12.5 mil @ 190.1470 ETH/USD
+    uint256 public constant CAP = 60000 ether;
 
     // Cannot have a constant address here - Solidity bug
     // https://github.com/ethereum/solidity/issues/2441
